@@ -1,2 +1,2 @@
-require_relative "app"
-run Sinatra::Application
+app = proc { |env| [200, {"Content-Type" => "text/plain"}, ["Hola desde Render!"]] }
+run app
