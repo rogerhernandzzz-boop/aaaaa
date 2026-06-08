@@ -1,7 +1,7 @@
 require "sinatra"
 
 get "/" do
-  "Hola desde Render! 🚀"
+  "Hola desde Render! Funcionando correctamente."
 end
 
 get "/health" do
